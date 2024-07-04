@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        div { color: crimson;}
+    </style>
+</head>
+<body>
+    <h2>FIRST-TIME VISITOR?</h2>
+        <p>Please register below to gain full access to whitepapers, eBooks, podcasts, demos and more. Fields marked with * are required</p>
+    <form>
+        <div>
+            <label for="first-name">*First name</label>
+            <input id="first-name" type="text" name="fist-name" placeholder="Narran" required>
+        </div>
+        <div>
+            <label for="last-name">*Last name</label>
+            <input id="last-name" type="text" name="last-name" placeholder="Porter" required>
+        </div>
+        <div>
+            <label for="title">*Title</label>
+            <input id="title" type="text" name="title" placeholder="CMO" required>
+        </div>
+        <div>
+            <label for="company">*Company</label>
+            <input id="company" type="text" name="company" placeholder="UbiOmniCorp" required>
+        </div>
+        <div>
+            <label for="phone">*Phone</label>
+            <input id="phone" type="number" name="phone" required>
+            Please enter in the following format eg. (416) 864-0440 or +1 416-864-0440
+        </div>
+        <div>
+            <label for="mail">*Company</label>
+            <input id="mail" type="email" name="mail" placeholder="narran.porter@UbiOmniCorp" required>
+        </div>
+        <div>
+            <label for="region">*Country/Region</label>
+            <select id="region" name="region">
+                <option value="US">United States</option>
+                <option value="E">Europe</option>
+                <option value="SA">South America</option>
+                <option value="M">Mars</option>  
+            </select>
+        </div>
+        <div>
+            <label for="state">*Company HQ State/Province</label>
+            <select id="state" name="state">
+                <option value="NY">New York</option>
+                <option value="T">Texas</option>
+                <option value="C">California</option>
+                <option value="LA">Los Angeles</option>  
+            </select>
+        </div>
+        <div>
+            <label for="industry">*Your industry</label>
+            <select id="industry" name="industry">
+                <option value="T">Technology</option>
+                <option value="E">Electronic</option>
+                <option value="M">Music</option>
+                <option value="F">Food</option>  
+            </select>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+        <div>
+            <input type="reset">
+        </div>
+
+    </form>
+</body>
+</html>
